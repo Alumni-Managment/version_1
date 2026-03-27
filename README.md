@@ -1,13 +1,12 @@
-# version_1
-# 12AM Alumini Management
+# Peer2Peer — Institutional Placement Networking Platform
 
-> From Campus to Career — 12AM makes placements personal
+> From Campus to Career — Peer2Peer makes placements personal
 
 ---
 
 ## 1. Project Overview
 
-12AM Alumini management is an institutional-grade, placement-focused professional networking platform built for colleges.  
+Peer2Peer is an institutional-grade, placement-focused professional networking platform built for colleges.  
 It connects verified students, placed alumni, faculty, and placement administrators inside a **closed, college-controlled ecosystem**.
 
 The platform eliminates placement anxiety by enabling:
@@ -99,16 +98,16 @@ It is a **placement infrastructure product**.
 ## 5. Backend Architecture Plan
 
 ### Folder Structure
-src/
-├── controllers/
-├── services/
-├── repositories/
-├── routes/
-├── middlewares/
-├── sockets/
-├── jobs/
-├── utils/
-└── app.ts
+# src/
+# ├── controllers/
+# ├── services/
+# ├── repositories/
+# ├── routes/
+# ├── middlewares/
+# ├── sockets/
+# ├── jobs/
+# ├── utils/
+# └── app.ts
 
 ### Core Backend Modules
 - Authentication & Authorization
@@ -124,15 +123,15 @@ src/
 ## 6. Frontend Architecture Plan
 
 ### App Router Structure
-app/
-├── auth/
-├── dashboard/
-├── profile/
-├── feed/
-├── forums/
-├── messages/
-├── admin/
-└── layout.tsx
+# app/
+# ├── auth/
+# ├── dashboard/
+# ├── profile/
+# ├── feed/
+# ├── forums/
+# ├── messages/
+# ├── admin/
+# └── layout.tsx
 
 ### Rendering Strategy
 - Server Components: feeds, dashboards, analytics
@@ -172,8 +171,8 @@ app/
 - Notifications
 
 ### Flow
-Client → Socket → Server
-Server → Persist to PostgreSQL → Emit to Receiver
+# Client → Socket → Server
+# Server → Persist to PostgreSQL → Emit to Receiver
 
 Messaging is DB-first to ensure durability and auditability.
 
@@ -307,4 +306,5 @@ Every technical decision must reinforce:
 ---
 
 **Project Status:** Execution Ready  
-**Last Updated:** February 03, 2026
+**Last Updated:** March 27, 2026
+
